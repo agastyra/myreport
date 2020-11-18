@@ -1,0 +1,179 @@
+/* All */
+body {
+	padding: 0;
+	margin: 0;
+	font-family: 'Rubik', sans-serif;
+	background: #999795ed;
+}
+
+.container {
+	width: 900px;
+	min-height: auto;
+	margin: 10px auto;
+	padding : 0;
+	padding-bottom: 20px;
+	background: #d1ccc9;
+	box-shadow: 4px 3px 14px 4px #615d5d73;
+}
+
+.navicon {
+	width: 15px;
+	vertical-align: sub;
+}
+
+nav {
+	background: #515151;
+	overflow: hidden;
+	margin: 0;
+	padding: 0;
+	font-size: 14px;
+}
+
+nav ul {
+	list-style: none;
+	padding: 0;
+	margin : 0;
+	width: 600px;
+}
+
+nav ul li a {
+	width: 150px;
+	float: left;
+	display: block;
+	text-decoration: none;
+	color: white;
+	padding: 5px;
+	text-align: center;
+	transition: ease 0.2s;
+}
+
+nav ul li a:hover {
+	color: rgb(158, 154, 154);
+}
+
+main {
+	text-align: center;
+}
+
+/* Landing Page */
+main .title {
+	display: block;
+	border-bottom: 1px solid black;
+	text-align: left;
+	margin: 20px;
+}
+
+main .card {
+	width: 250px;
+	display: inline-block;
+	text-align: justify;
+	padding: 10px;
+	margin: 5px;
+	font-size: 14px;
+	box-shadow: 1px 1px 9px 1px #615d5d73;
+	transition: ease-out 0.2s;
+}
+
+main .card:hover {
+	transform: scale(1.1);
+	box-shadow: none;
+}
+
+.read {
+	color: rgb(37, 119, 101);
+	text-decoration: none;
+}
+
+.read:hover {
+	text-decoration: underline;
+}
+
+.card-full {
+	display: none;
+}
+
+.card-full .close {
+	float: right;
+	text-decoration: none;
+	color: black;
+	padding: 10px;
+	transition: ease-out 0.15s;
+}
+
+.pagination a {
+	text-decoration: none;
+	color: black;
+}
+
+.card-full .close:hover {
+	background: rgb(230, 83, 83);
+}
+
+#latar-belakang:target, #tujuan:target, #manfaat:target, #scrum:target, #scrum2:target, #agile:target, #db:target, #db2:target, #db3:target {
+	display: block;
+	background-color: rgba(255,255,255);
+	opacity: 1;
+	margin:0;
+	width: 400px;
+	text-align: justify;
+	padding: 15px;
+	margin: 5px;
+	font-size: 16px;
+	box-shadow: 1px 1px 9px 1px #615d5d73;
+	position:absolute;
+	top:50%;
+	left:50%;
+	transform:translate(-50%,-50%);
+}
+
+/* About Me */
+main .profile {
+	width: 300px;
+	margin: 10px;
+	padding : 0;
+	box-shadow: 2px 3px 11px 2px #615d5d73;
+}
+
+#face2 {
+	display: none;
+}
+
+#face:target, #face2:target {
+	display: inline-block;
+}
+
+.about {
+	text-align: center;
+}
+
+.about span {
+	display: block;
+	margin-top: 10px;
+	transition: ease 0.2s;
+}
+
+.about span:hover, main .profile-retgoo:hover {
+	transform: scale(1.1,1.1);
+}
+
+/* About RetGoo */
+main .profile-retgoo {
+	width: 300px;
+	margin: 10px;
+	padding : 0;
+	transition: ease 0.2s;
+}
+
+main .company {
+	text-align: justify;
+	padding: 20px;
+}
+
+main .about span a {
+	color: black;
+	text-decoration: none;
+}
+
+main .about span a:hover {
+	text-decoration: underline;
+}
